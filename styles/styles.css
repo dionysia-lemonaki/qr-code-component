@@ -1,0 +1,31 @@
+:root {
+  /* COLORS */
+  --color-white: hsl(0 0% 100%);
+  --color-slate-300: hsl(212 45% 89%);
+  --color-slate-500: hsl(216 15% 48%);
+  --color-slate-900: hsl(218 44% 22%);
+
+  /* TYPOGRAPHY */
+  --font-family: Outfit, sans-serif;
+
+  /* FONT WEIGHTS */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* HEADINGS */
+  --text-heading-lg-size: 1.375rem; /* 22px */
+  --text-heading-lg-weight: var(--font-weight-bold);
+  --text-heading-lg-line-height: 1.2;
+  --text-heading-lg-letter-spacing: 0;
+
+  /* BODY TEXT */
+  --text-body-size: 0.938rem; /* 15px */
+  --text-body-weight: var(--font-weight-regular);
+  --text-body-line-height: 1.4;
+  --text-body-letter-spacing: 0.0133em; /* 0.2px */
+
+  /* SPACING */
+  --spacing-sm: 1rem; /* 16px */
+  --spacing-md: 1.5rem; /* 24px */
+  --spacing-lg: 2.5rem; /* 40px */
+}
