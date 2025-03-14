@@ -19,7 +19,7 @@
   --text-heading-lg-letter-spacing: 0;
 
   /* BODY TEXT */
-  --text-body-size: 0.938rem; /* 15px */
+  --text-body-size: 1rem; /* 16px */
   --text-body-weight: var(--font-weight-regular);
   --text-body-line-height: 1.4;
   --text-body-letter-spacing: 0.0133em; /* 0.2px */
@@ -54,9 +54,48 @@
 
 body {
   min-height: 100vh;
+  padding: var(--spacing-sm);
+  display: grid;
+  place-content: center;
+  background-color: var(--color-slate-300);
+  font-family: var(--font-family);
+  text-align: center;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+/* QR COMPONENT STYLES */
+
+.qr-card {
+  max-width: 20rem;
+  background-color: var(--color-white);
+  border-radius: 20px;
+  box-shadow: 0 25px 25px 0 hsl(0 0% 0% / 0.0477);
+  padding: var(--spacing-sm) var(--spacing-sm) var(--spacing-lg);
+}
+
+.qr-card__image {
+  height: auto;
+  border-radius: 10px;
+}
+
+.qr-card__title {
+  margin-top: var(--spacing-md);
+  color: var(--color-slate-900);
+  font-weight: var(--text-heading-lg-weight);
+  font-size: var(--text-heading-lg-size);
+  line-height: var(--text-heading-lg-line-height);
+  letter-spacing: var(--text-heading-lg-letter-spacing);
+}
+
+.qr-card__description {
+  margin-top: var(--spacing-sm);
+  color: var(--color-slate-500);
+  font-weight: var(--text-body-weight);
+  font-size: var(--text-body-size);
+  line-height: var(--text-body-line-height);
+  letter-spacing: var(--text-body-letter-spacing);
 }
