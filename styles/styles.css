@@ -29,3 +29,12 @@
   --spacing-md: 1.5rem; /* 24px */
   --spacing-lg: 2.5rem; /* 40px */
 }
+
+/* FONTS */
+
+@font-face {
+  font-family: Outfit;
+  src: url("../fonts/Outfit.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+}
