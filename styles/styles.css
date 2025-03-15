@@ -14,7 +14,7 @@
   --text-heading-lg-letter-spacing: 0;
 
   /* BODY TEXT */
-  --text-body-size: 1rem; /* 16px */
+  --text-body-size: 0.938rem; /* 15px */
   --text-body-line-height: 1.4;
   --text-body-letter-spacing: 0.0133em; /* 0.2px */
 
@@ -71,6 +71,10 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+.qr-card__content {
+  padding-inline: var(--spacing-sm);
 }
 
 .qr-card__title {
