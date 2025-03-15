@@ -78,7 +78,7 @@ body {
 }
 
 .qr-card__title {
-  margin-top: var(--spacing-md);
+  margin-block-start: var(--spacing-md);
   color: var(--color-slate-900);
   font-size: var(--text-heading-lg-size);
   line-height: var(--text-heading-lg-line-height);
@@ -86,7 +86,7 @@ body {
 }
 
 .qr-card__description {
-  margin-top: var(--spacing-sm);
+  margin-block-start: var(--spacing-sm);
   color: var(--color-slate-500);
   font-size: var(--text-body-size);
   line-height: var(--text-body-line-height);
