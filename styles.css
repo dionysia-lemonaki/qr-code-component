@@ -27,3 +27,13 @@
   --border-radius-lg: 20px;
   --border-radius-sm: 10px;
 }
+
+/* font */
+
+@font-face {
+  font-family: Outfit;
+  src:
+    url("./fonts/Outfit-variable.woff2") format("woff2 supports variations"),
+    url("./fonts/Outfit-variable.woff2") format("woff2-variations");
+  font-weight: 100 900;
+}
