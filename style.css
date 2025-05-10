@@ -1,0 +1,36 @@
+:root {
+  /* === Colour Palette === */
+  --slate-900: hsl(218 44% 22%);
+  --slate-500: hsl(216 15% 48%);
+  --slate-300: hsl(212 45% 89%);
+  --white: hsl(0 0% 100%);
+
+  /* === Semantic Colours === */
+  --text-primary: var(--slate-900);
+  --text-secondary: var(--slate-500);
+  --bg-body: var(--slate-300);
+  --bg-card: var(--white);
+
+  /* === Typography === */
+  --font-sans: "Outfit", sans-serif;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+
+  --text-sm: 0.938rem; /* 15px */
+  --text-lg: 1.375rem; /* 22px */
+
+  --leading-tight: 1.2;
+  --leading-normal: 1.4;
+  --tracking-tight: 0.0133em;
+
+  /* === Spacing === */
+  --space-200: 16px;
+  --space-300: 24px;
+  --space-500: 40px;
+
+  /* === Radius & Shadow === */
+  --radius-sm: 10px;
+  --radius-lg: 20px;
+
+  --shadow: 0 25px 25px 0 hsl(0 0% 0% / 0.0477);
+}
