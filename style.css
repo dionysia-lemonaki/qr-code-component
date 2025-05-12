@@ -55,6 +55,11 @@
 
 body {
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: var(--space-300);
 
   font-family: var(--font-sans);
   font-size: var(--text-sm);
@@ -68,4 +73,12 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+
+.card {
+  background-color: var(--white);
+  max-width: 20rem;
+  padding: var(--space-200) var(--space-200) var(--space-500);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
 }
