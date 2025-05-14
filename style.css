@@ -89,6 +89,7 @@ img {
 
 .card__image {
   border-radius: var(--radius-sm);
+  height: auto;
 }
 
 .card__content {
