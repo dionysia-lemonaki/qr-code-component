@@ -9,7 +9,7 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [What I learnt](#what-i-learnt)
   - [Useful resources](#useful-resources)
 
 ## Overview
