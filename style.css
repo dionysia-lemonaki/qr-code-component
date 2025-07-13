@@ -54,6 +54,7 @@
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -91,4 +92,8 @@ body {
   box-shadow: var(--shadow);
   display: grid;
   gap: var(--space-300);
+}
+
+.card__image {
+  border-radius: var(--radius-sm);
 }
