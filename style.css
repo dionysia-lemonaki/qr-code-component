@@ -97,3 +97,20 @@ body {
 .card__image {
   border-radius: var(--radius-sm);
 }
+
+.card__content {
+  padding-inline: var(--space-200);
+  display: grid;
+  gap: var(--space-200);
+}
+
+.card__title {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-tight);
+}
+
+.card__description {
+  color: var(--clr-text-secondary);
+  letter-spacing: var(--letter-spacing);
+}
