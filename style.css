@@ -59,3 +59,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+body {
+  background-color: var(--clr-bg-body);
+  font-family: var(--font-sans);
+}
+
+/* --- utility classes --- */
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- end of utility classes */
