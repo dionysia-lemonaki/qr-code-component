@@ -99,3 +99,9 @@ body {
   box-shadow: var(--shadow);
   gap: var(--space-300);
 }
+
+.card__image {
+  height: auto;
+  width: 100%;
+  border-radius: var(--radius-sm);
+}
