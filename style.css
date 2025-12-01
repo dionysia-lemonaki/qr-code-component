@@ -63,6 +63,13 @@ img {
 body {
   background-color: var(--clr-bg-body);
   font-family: var(--font-sans);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
 }
 
 /* --- utility classes --- */
@@ -83,3 +90,12 @@ body {
 }
 
 /* --- end of utility classes */
+
+.card {
+  background-color: var(--clr-bg-card);
+  max-width: var(--max-card);
+  padding: var(--space-200) var(--space-200) var(--space-500);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  gap: var(--space-300);
+}
