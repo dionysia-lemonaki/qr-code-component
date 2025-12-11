@@ -1,0 +1,36 @@
+:root {
+  /* colors */
+  --white: hsl(0 0% 100%);
+  --slate-300: hsl(212 45% 89%);
+  --slate-500: hsl(216 15% 48%);
+  --slate-900: hsl(218 44% 22%);
+
+  --clr-bg-body: var(--slate-300);
+  --clr-bg-card: var(--white);
+  --clr-text-primary: var(--slate-900);
+  --clr-text-secondary: var(--slate-500);
+
+  /* typography */
+  --font-sans: "Outfit", sans-serif;
+  --fw-regular: 400;
+  --fw-bold: 700;
+  --fs-sm: 0.9375rem; /* 15px */
+  --fs-lg: 1.375rem; /* 22px */
+  --lh-tight: 1.2;
+  --lh-base: 1.4;
+
+  /* spacing */
+  --space-200: 16px;
+  --space-300: 24px;
+  --space-500: 40px;
+
+  /* sizing */
+  --max-card: 20rem; /* 320px */
+
+  /* radius */
+  --radius-sm: 10px;
+  --radius-lg: 20px;
+
+  /* shadow */
+  --shadow: 0 4px 4px 0 hsl(0 0 0 / 0.25);
+}
