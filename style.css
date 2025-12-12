@@ -104,6 +104,11 @@ body {
   padding-inline: var(--space-200);
 }
 
+.card__image {
+  border-radius: var(--radius-sm);
+  height: auto;
+}
+
 .card__title {
   color: var(--slate-900);
   font-weight: var(--fw-bold);
