@@ -32,7 +32,7 @@
   --radius-lg: 20px;
 
   /* shadow */
-  --shadow: 0 4px 4px 0 hsl(0 0 0 / 0.25);
+  --shadow: 0 25px 25px 0 hsl(0 0% 0% / 0.048);
 }
 
 @font-face {
