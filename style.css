@@ -107,5 +107,20 @@ img {
 
 .card__content {
   gap: var(--content-gap);
-  padding: var(--content-padding-inline);
+  padding-inline: var(--content-padding-inline);
+}
+
+.card__title {
+  color: var(--clr-text-primary);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-tight);
+}
+
+.card__description {
+  color: var(--clr-text-secondary);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-base);
+  letter-spacing: 0.0133em;
 }
