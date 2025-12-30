@@ -105,6 +105,11 @@ img {
   box-shadow: var(--shadow);
 }
 
+.card__image {
+  height: auto;
+  border-radius: var(--radius-sm);
+}
+
 .card__content {
   gap: var(--content-gap);
   padding-inline: var(--content-padding-inline);
