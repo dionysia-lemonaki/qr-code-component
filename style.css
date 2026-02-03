@@ -93,3 +93,16 @@ body {
   border-radius: 10px;
   height: auto;
 }
+
+.card__content {
+  gap: var(--space-200);
+  padding-inline: var(--space-200);
+}
+
+.card__title {
+  color: var(--slate-900);
+}
+
+.card__description {
+  color: var(--slate-500);
+}
