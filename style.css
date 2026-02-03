@@ -39,6 +39,12 @@ img {
 body {
   background-color: var(--slate-300);
   font-family: var(--font-sans);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* --- utility classes --- */
@@ -72,3 +78,12 @@ body {
 }
 
 /* --- end of utility classes */
+
+.card {
+  background-color: var(--white);
+  max-width: 20rem;
+  padding: var(--space-200) var(--space-200) var(--space-500);
+  gap: var(--space-300);
+  border-radius: 20px;
+  box-shadow: 0 25px 25px hsl(0 0 0 / 0.047);
+}
