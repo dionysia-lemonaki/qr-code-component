@@ -23,6 +23,8 @@
   --space-200: 16px;
   --space-300: 24px;
   --space-500: 40px;
+
+  --radius-lg: 20px;
 }
 
 *,
@@ -40,9 +42,27 @@
 body {
   background-color: var(--slate-300);
   font-family: var(--font-sans);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: var(--space-200);
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.card {
+  background-color: var(--white);
+  padding: var(--space-200) var(--space-200) var(--space-500);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 25px 25px 0 hsl(0 0% 0% / 0.0477);
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-300);
 }
