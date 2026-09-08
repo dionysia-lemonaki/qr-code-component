@@ -11,6 +11,8 @@
 @theme {
   --font-outfit: "Outfit", sans-serif;
 
+  --color-slate-900: hsl(218 44% 22%);
+  --color-slate-500: hsl(216 15% 48%);
   --color-slate-300: hsl(212 45% 89%);
 }
 
