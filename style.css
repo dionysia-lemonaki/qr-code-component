@@ -50,8 +50,30 @@ img {
   max-width: 20rem;
   padding: 16px 16px 40px;
   border-radius: 20px;
+  text-align: center;
 }
 
 .card-image {
   border-radius: 10px;
+}
+
+.card-content {
+  margin-block-start: 24px;
+  padding-inline: 16px;
+}
+
+.card-title {
+  color: var(--color-slate-900);
+  font-weight: 700;
+  font-size: var(--text-large);
+  line-height: 1.2;
+}
+
+.card-description {
+  margin-block-start: 16px;
+  color: var(--color-slate-500);
+  font-weight: 400;
+  font-size: var(--text-base);
+  line-height: 1.4;
+  letter-spacing: 0.0133em;
 }
