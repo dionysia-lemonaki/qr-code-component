@@ -30,6 +30,11 @@
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
   background-color: var(--color-slate-300);
   font-family: var(--font-outfit);
 }
@@ -38,4 +43,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.card {
+  background-color: var(--color-white);
+  max-width: 20rem;
+  padding: 16px 16px 40px;
+  border-radius: 20px;
 }
